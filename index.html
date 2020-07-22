@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <script src="js/script.js" type="text/javascript" defer></script> 
+</head>
+<body>
+    <form class="form">
+        <div class="firstNumber">
+            First Input<br>
+            <input type="number" id="firstNumber" name="firstNumber" min="1" max="5"><br>
+        </div>
+        <div class="dropDown">
+        Choose an Operator<br>
+           <button onclick="myFunction()" class=dropdown>Dropdown</button>
+           <div id="myDropdown" class="dropdown-content"> 
+                <a href="#">+</a>
+                <a href="#">-</a>
+                <a href="#">/</a>
+                <a href="#">*</a>
+            </div>
+        </div>
+        <br>
+        </div>
+        <div class="secondNumber">
+        Second Input<br>
+            <input type="number" id="secondNumber" name="secondNumber" min="1" max="5"><br>
+        </div>
+        <div class="result">
+            Result<br>
+            <input type="number" id="result" name="result" min="1" max="5">
+        </div>
+    </form>
+</body>
+</html>
