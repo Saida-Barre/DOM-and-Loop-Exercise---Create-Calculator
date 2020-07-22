@@ -1,13 +1,10 @@
-.firstNumber {
-    padding: 20px 0px
+/* Dropdown Button */
+.dropbtn {
+    background-color: #3498DB;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    cursor: pointer;
 }
-
-.dropDown {
-   
-}
-.dropDown li {
-    list-style: none;
-}
-.secondNumber {
-    padding: 20px 0px
-}
+/*Dropdown button on hover
